@@ -81,7 +81,7 @@ function App() {
         </div>
         <button
           style={{ transition: "transform 0.3s ease-in-out" }}
-          className={`bg-blue-500 text-neutral-50 py-4 px-6 w-fit rounded-lg ${isValid ? '' : (mouseCoordinates.x < 915 && mouseCoordinates.x > 800 && 'translate-x-20')} ${isValid ? '' : (mouseCoordinates.x > 905 && mouseCoordinates.x < 1025 && 'translate-x-[-80px]')}`}
+          className={`bg-blue-500 text-neutral-50 py-4 px-6 w-fit rounded-lg ${isValid ? '' : (mouseCoordinates.x < 915 && mouseCoordinates.x > 800 && mouseCoordinates.y < 513 && mouseCoordinates.y > 460 && 'translate-x-20')} ${isValid ? '' : (mouseCoordinates.x > 905 && mouseCoordinates.x < 1025 && mouseCoordinates.y < 513 && mouseCoordinates.y > 460 &&  'translate-x-[-80px]')}`}
           onClick={handleBtnClicked}
           disabled={!isValid}
         >
