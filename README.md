@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+<h1 align='center'>TRY TO SUBMIT</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align='left'>I so this funny <a href='https://www.linkedin.com/posts/hemmy-lola-mathys-b24a58240_a-software-developer-is-already-living-in-activity-7136113191461298176--qy1/'>video</a> and i wanted to challenge me, here is my result.</p>
 
-Currently, two official plugins are available:
+<p align='center'>
+<video controls loop autoplay muted>
+  <source src='./public/1.mp4'/>
+</video>
+<p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align='left'>
+<a href='https://dodging-form.vercel.app/'><strong>Visit the website</strong></a> .
+<a href='#tech-stack'><strong>Tech Stack</strong></a> .
+<a href='#author'><strong>Author</strong></a>
+</p>
+<br/>
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Typescript](https://www.typescriptlang.org) Language
+- [React.js](https://fr.react.dev/) Javascript Library
+- [Vite.js](https://vitejs.dev/)
+- Styling with [Tailwind CSS](https://tailwindcss.com)
+- Good practice with [ESlint](https://eslint.org)
+- Confettis with [canvas-confetti](https://github.com/catdad/canvas-confetti)
+- Deployed with [Vercel](https://vercel.com/)
 
-- Configure the top-level `parserOptions` property like this:
+## Author
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- My self ([@vitolinho](https://github.com/vitolinho))
