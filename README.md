@@ -3,7 +3,7 @@
 <p align='left'>I so this funny <a href='https://www.linkedin.com/posts/hemmy-lola-mathys-b24a58240_a-software-developer-is-already-living-in-activity-7136113191461298176--qy1/'>video</a> and i wanted to challenge me, here is my result.</p>
 
 <p align='center'>
-<video controls loop autoplay muted>
+<video controls>
   <source src='./public/1.mp4'/>
 </video>
 <p>
